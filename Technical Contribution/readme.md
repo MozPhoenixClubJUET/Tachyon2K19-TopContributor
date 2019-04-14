@@ -22,8 +22,6 @@
 * Implementation of Algorithm
   * Building code using provided Algorithm
 
-* Data Science/Big Data
-
 * Some important links:-
 
    * How to do a Pull Request in GitHub https://www.youtube.com/watch?v=rgbCcBNZcdQ&feature=youtu.be
