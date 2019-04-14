@@ -13,10 +13,11 @@
   * Fixing error
   
 * Web Development
-  * Making Codes from given template
-  * Fixing error in yhe existing code
+  * Design website as similar to provided template
+  * Fixing error in the existing code
   
 * Implementation of Algorithm
+  * Making of codes from provided Algorithm
 
 * Data Science/Big Data
 
