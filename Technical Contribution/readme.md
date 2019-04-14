@@ -7,14 +7,16 @@
   * Step counter
   
 * Python 
-  * Fixinge error
+  * Fixing error
 
 * Rust
   * Fixing error
   
 * Web Development
-
-* Shape the Algorithm
+  * Making Codes from given template
+  * Fixing error in yhe existing code
+  
+* Implementation of Algorithm
 
 * Data Science/Big Data
 
