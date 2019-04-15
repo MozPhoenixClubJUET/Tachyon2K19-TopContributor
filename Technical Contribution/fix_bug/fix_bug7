@@ -1,0 +1,30 @@
+    #include <bits/stdc++.h>
+    using namespace std;
+    void printprimes(int n)
+    {
+	   bool prime[n+1];
+  	 memset(prime,false, sizeof(prime));
+        int p=2;
+        int x=sqrt(p);
+	   for (;x*x<n; p++)
+	  {
+		if (prime[p] == true)
+		{
+			for (int i=p*p; i<=n; i += p)
+				prime[i] = false;
+		}
+	  }
+	  for (int p=1;p<n;p++)
+	 if (prime[p])
+		cout << p << " ";
+   }
+   int main()
+   {
+	  int n;
+	  cout<<"Enter the value of n: "<<endl;
+        cin>>n;
+        n--;
+	  cout << "Following are the prime numbers smaller "<< " than or equal to " << n << endl;
+	  printprimes(n);
+	  return 0;
+   }
