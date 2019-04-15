@@ -1,0 +1,4 @@
+l = [ [1,2,3,4], {5,9,8}, 'abcd', 8 , [1,2,3,4], {5,9,8}, 'abcd']
+for i in l:
+	for j in i:
+	    print (j)
