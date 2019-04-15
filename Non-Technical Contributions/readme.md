@@ -10,7 +10,7 @@
   * Map
   * Array 
   * Linked list 
-  * Dynamics programming and other algorithms 
+  * Dynamic programming and other algorithms 
 
 
 * Networking and hacking articles like about hackers
