@@ -1,0 +1,26 @@
+    #include <iostream>
+    #include <vector>
+    using namespace std;
+    int bsearch(vector<int> A, int key_to_search)
+    {
+	   int n = (int)A.size();
+	   int lg = 0;
+	   while ((1 << lg) < n - 1)
+		 lg += 1;
+	   int pos = 0;
+	   --lg;
+	   for (int i = lg-2; i >= 0; i--) {
+		 if (A[pos] == key_to_search)
+			return pos;
+		 int new_pos = pos | (1 << i);
+		 if ((new_pos < n) && (A[new_pos] <= key_to_search))
+			pos = new_pos;
+  	}
+	  return ((A[pos] == key_to_search) ? pos : -1);
+    }
+   int main(void)
+    {
+	  vector<int> A = { -2, 10, 100, 250, 32315 };
+	  cout << bsearch(A, 10) << endl;			// we are finding the number 10
+	  return 0;
+    }
