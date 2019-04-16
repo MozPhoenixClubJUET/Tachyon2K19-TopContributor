@@ -1,3 +1,4 @@
+   //	Given an array with predefined integers,your task is to find the sum of all elements of array using STL
    #include <bits/stdc++.h>
    using namespace std;
    int main()
