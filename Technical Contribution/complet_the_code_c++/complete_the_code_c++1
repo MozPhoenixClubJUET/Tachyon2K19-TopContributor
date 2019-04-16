@@ -14,7 +14,7 @@
 	  N = 2;
 	  int n = sizeof(a) / sizeof(a[0]);
 	
-        int count = Your code goes here  ;
+        int count = count_if(a, a+n, isDiv) ;
 	
          cout << "Elements divisible by "<< N << ": " << count;
 	   return 0;
