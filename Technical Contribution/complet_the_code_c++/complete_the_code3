@@ -1,0 +1,10 @@
+   #include<bits/stdc++.h>
+   using namespace std;
+   int main(void)
+   {
+   vector<int>v{1,5,2,3,42,89,71,21,0,-1};
+   
+   cout<<"Max element of the vector is : "<<  Your code goes here  ;
+
+   return 0;
+   }
