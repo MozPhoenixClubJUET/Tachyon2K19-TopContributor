@@ -1,3 +1,4 @@
+    //  Program to find a letter in a string
     #include<bits/stdc++.h>
     using namespace std;
     int main(void)
@@ -15,3 +16,7 @@
     cout<<"Not Found"<<endl;
     return 0;
    }
+
+/*Example:
+  A correct code of this program will output the following for searching character 'b' in string "xyzbc" : 
+  Output: Found*/
