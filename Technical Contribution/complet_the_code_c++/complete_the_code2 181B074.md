@@ -7,6 +7,6 @@
 	  cout << "Array: ";
 	  for (int i = 0; i < n; i++)
 		cout << arr[i] << " ";
-    cout << "\nSum = "<<accumulate(arr, arr+n, 0);;
+    cout << "\nSum = "<<accumulate(arr, arr+n, 0);
        return 0;
    }
