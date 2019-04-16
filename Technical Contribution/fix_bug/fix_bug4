@@ -1,3 +1,4 @@
+    //	Program to find a predefined number in a vector having prdefined integers stored in sorted format,and print 1 if present and 0 otherwise.
     #include <iostream>
     #include <vector>
     using namespace std;
@@ -24,3 +25,9 @@
 	  cout << bsearch(A, 10) << endl;			// we are finding the number 10
 	  return 0;
     }
+
+
+/*Example:
+  A correct code of this program will output the following for the input given in the main function:
+  Output: 1
+*/
