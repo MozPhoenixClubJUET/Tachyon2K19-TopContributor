@@ -3,21 +3,15 @@
 
 * C/C++
   * Bug Finder
-  * Complexity Calculator
-  * Step Counter
+  * Complexity Analysis
 
 * Python 
-  * Multiple Choice Questions (MCQ)
   * Complete The Code
   * Bug Finder
-  * Guess The Output
-
-* Rust
-  * Fixing error
 
 * Web Development
   * Design website similar to provided template
-  * Fix errors in the existing code
+  * Redesign and modify in the existing code
 
 * Implementation of Algorithm
   * Building code using provided Algorithm
