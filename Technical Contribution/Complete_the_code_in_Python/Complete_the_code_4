@@ -1,0 +1,10 @@
+def char_frequency(str1):
+    dict = {}
+    for n in str1:
+        keys = dict.keys()
+        if n in keys:
+            #your code goes here
+        else:
+            #your code goes here
+    return dict
+print(char_frequency('kya.kool.hai.hum'))
