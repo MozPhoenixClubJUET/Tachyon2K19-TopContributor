@@ -1,0 +1,16 @@
+# Python Program to find the factors of a number
+
+
+def print_factors(x):
+   
+
+   print("The factors of",x,"are:")
+   for i in range(0, x + 1):
+       if x % i == 0:
+       print(i)
+
+
+num = 320
+
+
+print_factors(num)
