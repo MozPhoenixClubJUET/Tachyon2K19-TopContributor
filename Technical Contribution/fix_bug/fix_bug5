@@ -1,3 +1,4 @@
+    //	Program to find the HCF of two given numbers
     #include <stdio.h>
     int gc(int a,int b,int *x,int *y)
     {
@@ -23,3 +24,9 @@
 	  printf("gcd(%d, %d) = %d", a, b, g);
 	  return 0;
     }
+
+/*Example:
+  A correct code of this program will output the following: 
+  Input: 35 15
+  Output: 5
+*/
