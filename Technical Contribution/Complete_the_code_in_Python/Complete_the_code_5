@@ -1,0 +1,18 @@
+
+#program to check the palindromic string 
+def reverse(s): 
+    #your code goes here(one line only)  
+
+def isPalindrome(s): 
+    rev = reverse(s) 
+  
+    #your code goes here(3 lines only)
+  
+  
+s = "malayalam"
+ans = isPalindrome(s) 
+  
+if ans == 1: 
+    print("Yes") 
+else: 
+    print("No") 
