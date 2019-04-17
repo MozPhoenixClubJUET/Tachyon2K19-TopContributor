@@ -14,5 +14,3 @@
 	works pretty well in day as well as in the dark. It uses histogram equalization and gamma correction to eliminate 
 	the effect of lighting.
 - A blink is supposed to last for 300 to 400 milliseconds. So, if the eye remains closed for more than 800-900 ms, we can say     that the person is either drowsy or sleeping. On the other hand, if the eye reopens after just 100ms, its considered an         invalid blink discarded.
-## Screenshots
-file:///home/sho_buntu/Desktop/driver/Driver-Fatigue-Detection-master/Update/Project%20Update_files/image_0750_mirror.jpg
