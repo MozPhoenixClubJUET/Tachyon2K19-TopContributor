@@ -1,0 +1,10 @@
+   #include<bits/stdc++.h>
+   using namespace std;
+   int main(void)
+   {
+   vector<int>v{89,1,5,2,3,42,89,71,21,0,-1};
+   int x=89;
+   cout<<"Frequency of element x in vector v is : "<<count(v.begin(),v.end(),x);
+   v.clear();
+   return 0;
+}
