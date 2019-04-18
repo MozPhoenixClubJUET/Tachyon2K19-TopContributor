@@ -1,3 +1,4 @@
+   // Given a vector of predefined elements,our task is to count the FREQUENCY of integer 'x' in the vector using STL
    #include<bits/stdc++.h>
    using namespace std;
    int main(void)
