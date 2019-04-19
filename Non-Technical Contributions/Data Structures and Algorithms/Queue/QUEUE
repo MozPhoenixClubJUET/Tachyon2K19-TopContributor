@@ -1,0 +1,60 @@
+Queues are data structures that follow the First In First Out (FIFO) i.e. the first element that is added to the queue is the first
+one to be removed.
+
+Circular queues
+
+A circular queue is an improvement over the standard queue structure. In a standard queue, when an element is deleted, the vacant
+space is not reutilized. However, in a circular queue, vacant spaces are reutilized.
+
+While inserting elements, when you reach the end of an array and you need to insert another element, you must insert that element 
+at the beginning (given that the first element has been deleted and the space is vacant).
+
+BASICS OPERATIONS:
+enqueue() − add (store) an item to the queue.
+
+dequeue() − remove (access) an item from the queue.
+
+Few more functions are required to make the above-mentioned queue operation efficient. These are −
+
+peek() − Gets the element at the front of the queue without removing it.
+
+isfull() − Checks if the queue is full.
+
+isempty() − Checks if the queue is empty.
+
+Enqueue Operation
+Queues maintain two data pointers, front and rear. Therefore, its operations are comparatively difficult to implement than that of stacks.
+
+The following steps should be taken to enqueue (insert) data into a queue −
+
+Step 1 − Check if the queue is full.
+
+Step 2 − If the queue is full, produce overflow error and exit.
+
+Step 3 − If the queue is not full, increment rear pointer to point the next empty space.
+
+Step 4 − Add data element to the queue location, where the rear is pointing.
+
+Step 5 − return success.
+
+Applications of Queue
+Queue, as the name suggests is used whenever we need to manage any group of objects in an order in which the first one coming in,
+also gets out first while the others wait for their turn, like in the following scenarios:
+
+Serving requests on a single shared resource, like a printer, CPU task scheduling etc.
+In real life scenario, Call Center phone systems uses Queues to hold people calling them in an order, until a service representative 
+is free.
+Handling of interrupts in real-time systems. The interrupts are handled in the same order as they arrive i.e First come first served.
+
+Complexity Analysis of Queue Operations
+Just like Stack, in case of a Queue too, we know exactly, on which position new element will be added and from where an element 
+will be removed, hence both these operations requires a single step.
+
+Enqueue: O(1)
+Dequeue: O(1)
+Size: O(1)
+This makes queue as FIFO(First in First Out) data structure, which means that element inserted first will be removed first.
+
+Which is exactly how queue system works in real world. If you go to a ticket counter to buy movie tickets, and are first in the queue,
+then you will be the first one to get the tickets.
+Right? Same is the case with Queue data structure. Data inserted first, will leave the queue first.
