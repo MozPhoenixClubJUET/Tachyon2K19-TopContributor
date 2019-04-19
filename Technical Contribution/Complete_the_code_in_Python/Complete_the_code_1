@@ -5,11 +5,11 @@ def recur_factorial(n):
    
 if n == 1:
        
-	# your code goes here
+	return n
    
 else:
        
-	# your code goes here
+	return n*recur_factorial(n-1)
 
 
 
