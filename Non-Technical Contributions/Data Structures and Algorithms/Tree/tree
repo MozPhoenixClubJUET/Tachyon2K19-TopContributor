@@ -1,0 +1,51 @@
+Tree represents the nodes connected by edges. We will discuss binary tree or binary search tree specifically.
+Binary Tree is a special datastructure used for data storage purposes. A binary tree has a special condition that each node can have a 
+maximum of two children. A binary tree has the benefits of both an ordered array and a linked list as search is as quick as in a sorted
+array and insertion or deletion operation are as fast as in linked list.
+
+Important Terms
+Following are the important terms with respect to tree.
+
+Path − Path refers to the sequence of nodes along the edges of a tree.
+
+Root − The node at the top of the tree is called root. There is only one root per tree and one path from the root node to any node.
+
+Parent − Any node except the root node has one edge upward to a node called parent.
+
+Child − The node below a given node connected by its edge downward is called its child node.
+
+Leaf − The node which does not have any child node is called the leaf node.
+
+Subtree − Subtree represents the descendants of a node.
+
+Visiting − Visiting refers to checking the value of a node when control is on the node.
+
+Traversing − Traversing means passing through nodes in a specific order.
+
+Levels − Level of a node represents the generation of a node. If the root node is at level 0, then its next child node is at level 1, 
+its grandchild is at level 2, and so on.
+
+keys − Key represents a value of a node based on which a search operation is to be carried out for a node.
+
+Here are some properties of trees:
+
+The top-most node is called root.
+A node without children is called leaf node or terminal node.
+Height (h) of the tree is the distance (edge count) between the farthest leaf to the root.
+A has a height of 3
+I has a height of 0
+Depth or level of a node is the distance between the root and the node in question.
+H has a depth of 2
+B has a depth of 1
+
+Full binary tree: each node has exactly 0 or 2 children (but never 1).
+Complete binary tree: when all levels except the last one are full with nodes.
+Perfect binary tree: when all the levels (including the last one) are full of nodes.
+
+The tree is a data structure where a node has 0 or more descendants/children.
+Tree nodes don’t have cycles (acyclic). If it has cycles it is a Graph data structure instead.
+Trees with 2 children or less are called: Binary Tree
+When a Binary Tree is sorted in a way that the left value is less than the parent and the right children is higher, then and only then we have a Binary Search Tree.
+You can visit a tree in a pre/post/in-order fashion.
+An unbalanced has a time complexity of O(n). 
+A balanced has a time complexity of O(log n). 
