@@ -1,0 +1,47 @@
+Why a Layered Network Model?
+• Reduces complexity
+• Standardizes interfaces
+• Facilitates modular engineering
+• Ensures interoperable technology
+• Accelerates evolution
+• Simplifies teaching and learning
+
+The Seven Layers of the OSI Model:
+Application
+Presentation
+Session
+Transport
+Network
+Data Link
+Physical
+
+Application Layers (Upper
+Layers):
+• Network Processes to Applications
+• Data Representation
+• InterHost Communication
+
+The Seven Layers of the OSI Model:
+TRANSPORT LAYER:
+End To End Connections:
+• Handles transportation issues between hosts
+• Ensures data transport reliability
+• Establishes, maintains and terminates virtual circuits
+• Provides reliability through fault detection and recovery
+• Information flow control
+
+NETWORK LAYER:
+Data Delivery:
+• Provides connectivity and path selection between two host systems.
+• Routes data packets
+• Selects best path to deliver data
+• The Network layer prioritizes data known as Quality of Service (QoS).
+
+DATA LINK LAYER:
+Access to Media:
+• Defines how data is formatted for transmission and how access to the network is controlled.
+
+PHYSICAL LAYER:
+Binary Transmission:
+• Defines the electrical, mechanical,procedural, and functional specifications for activating,maintaining, and deactivating the
+  physical link
