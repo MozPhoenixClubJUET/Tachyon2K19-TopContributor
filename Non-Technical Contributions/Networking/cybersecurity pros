@@ -1,0 +1,79 @@
+Here are the top ten general tools used by cybersecurity pros, and the guys they go up against.
+
+1 – Metasploit Framework
+
+The tool that turned hacking into a commodity when it was released in 2003, the Metasploit Framework made cracking known
+vulnerabilities as easy as point and click. Although sold as (and used by white hats) as a penetration testing tool, Metasploit’s
+free version is still where most neophyte hackers cut their teeth. With downloadable modules allowing any combination of exploit and 
+executable payload, all freely available, hackers have instant access to any system showing one of nearly 2000 cataloged vulnerabilities. Sophisticated anti-forensic and stealth tools make the package complete.
+
+2 – Nmap
+
+Nmap, or Network Mapper, is 20 years old, but remains one of the most flexible, powerful, and useful tools in the network security 
+analysts toolkit. Nmap can bounce TCP and UDP packets around your network like a pinball wizard, identifying hosts, scanning for open 
+ports, and slicing open misconfigured firewalls to show you what devices are open for business on your network… whether you put them 
+there or someone else did. Nmap has been around so long that it has collected a constellation of helper tools such as the Zenmap GUI,
+Ncat debugging tool, and Nping packet generator.
+
+3 – OpenSSH
+
+OpenSSH is a suite of low-level tools that rights many of the wrongs built into the original network-level utilities in most Internet 
+operating systems. Created as an integral part of the bulletproof OpenBSD UNIX implementation, OpenSSH was useful enough and solid
+enough that it was quickly adopted by other UNIX forks and made available as portable packages for other operating systems. The
+encryption and tunneling capabilities of the OpenSSH utilities are taken for granted by most users, but security professionals need 
+to know how to build secure systems on top of reliable OpenSSH tools.
+
+4 – Wireshark
+
+Wireshark is the de facto standard in network protocol analysis tools. It allows deep inspection and analysis of packets from hundreds
+of different protocols, from the ubiquitous TCP to the exotic CSLIP. With built-in decryption support for many encrypted protocols and 
+powerful filtering and display capabilities, Wireshark can help you dive deep in current activity on your network and expose nefariously
+crafted attacks in real time.
+
+5 – Nessus
+
+Nessus is the world’s most popular vulnerability scanner, a battle-scarred champion that has held that throne for decades even as new 
+challengers have crowded the arena in recent years. Automated compliance scans can handle everything from password auditing to
+patch-level compliance across your network, with reports that immediately draw attention to open vulnerabilities. Nessus can integrate
+with Nmap to take advantage of advanced port-scanning capabilities and with other management tools to form an integral part of your
+network security system.
+
+6 – Aircrack-ng
+
+Aircrack is your go-to tool for wifi hacking—still one of the most vulnerable aspects of most commercial networks. Weak wireless 
+encryption protocols are easily shattered by Aircrack’s WEP and WPA attacks. Sophisticated deauthentication and fake access point
+attacks allow you to probe your security aggressively. Packet sniffing capabilities allow you to simply snoop and keep an eye on 
+traffic even without making overt attacks. No wireless network security staff should be without a copy of Aircrack-ng.
+
+7 – Snort
+
+Snort provides network intrusion detection that performs real-time traffic analysis and packet logging on your network. Using rulesets 
+that are updated daily, Snort matches patterns against known attack signatures and alerts you to potential assaults. The system can be 
+configured to trigger even on less openly nefarious activity, such as Nmap stealth port scans or operating system fingerprinting attempts.
+
+8 – John the Ripper
+
+John the Ripper is a fast password cracker with a lot of features that make it a breeze for slashing through your password files. It auto 
+detects hash types to take the guesswork out of the attack and supports several popular encryption formats including DES, MD5, and 
+Blowfish. It hits Unix, Kerberos, and Windows LanManager passwords equally hard using either dictionary or brute force attacks.
+If you haven’t checked your password hashes against John yet, you can be sure that some hacker out there will do it for you soon.
+
+9 – Google
+
+If this one seems a little trite to you, think again. Sure, Google is everybody’s go-to when it’s time to research a virus or turn 
+up that RFP you’re looking for. Your job would be a nightmare without it. But Google is also sitting on top of one of the biggest 
+near-real-time vulnerability databases of all time, including potential holes in your servers. Google-hacking uses search tools to
+explore the Google index for misconfigured Web services or illicit documents that have leaked outside your firewall. Configure you
+r search string properly, and you have instant access to lists of open web shares at your IP address, misconfigured password pages,
+exposed internal file shares you never dreamed were unprotected. Sure, you have all the same information internally—but when you 
+look at it through Google, you’re seeing it through the eyes of your adversary. You might be surprised what it shows.
+
+10 – L0phtCrack
+
+Something you’ll notice in the technology business is that eventually everything old becomes new again. Timesharing minicomputers are
+reincarnated as client-server architecture, non-relational databases are reborn as NoSQL, and the venerable L0phtCrack, one of the
+first effective password crackers, is reincarnated in modern form. Originally emerging from the fabled L0pht Heavy Industries hacking 
+collective in the 1990s, the tool was abandoned after a series of mergers left it in Symantec’s hands. But in 2009, original authors
+and legends of cybersecurity Mudge, Weld Pond, and DilDog re-acquired the IP and revamped the old girl. With multi-core and multi-GPU 
+support, 64-bit architecture, and advanced rainbow table precomputed hash capabilities, L0phtCrack can once again take on jobs John
+the Ripper can’t hack.
