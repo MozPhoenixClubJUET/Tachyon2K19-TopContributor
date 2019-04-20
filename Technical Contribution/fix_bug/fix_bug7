@@ -1,3 +1,4 @@
+    //	Program to print all prime numbers between 0 to n where n will be given by the user
     #include <bits/stdc++.h>
     using namespace std;
     void printprimes(int n)
@@ -28,3 +29,8 @@
 	  printprimes(n);
 	  return 0;
    }
+
+/*Example:
+  A correct code of this program will output the following:
+  Input: 10
+  Output: 2 3 5 7*/
