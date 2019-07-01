@@ -1,3 +1,4 @@
+    //	Program to count the number of setbits in binary representation of a positive integer
     #include <bits/stdc++.h>	 
     using namespace std; 
     unsigned int countSetBits(unsigned int n) 
@@ -19,3 +20,9 @@
 	      return 0; 
     } 
   
+  /*Example:
+  A correct code of this program will output the following:
+  Input: 13
+  Output: 3
+  */
+
