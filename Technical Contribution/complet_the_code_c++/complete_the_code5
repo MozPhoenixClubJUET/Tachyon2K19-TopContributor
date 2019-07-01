@@ -1,4 +1,5 @@
-   #include <bits/stdc++.h>
+  //	Given a predefined string,our task is to find the number of words in the string using stringstream
+  #include <bits/stdc++.h>
    using namespace std;
    int cWords(string str)
    {
