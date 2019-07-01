@@ -1,3 +1,4 @@
+    //	Given an array with predefined integers and a number N,we need to calculate the number of elements divisible by N in the array,using STL
     #include <bits/stdc++.h>
     using namespace std;
     int N;
