@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+int a,b,n;
+printf("enter the number n");
+scanf("%d",&n);
+if(a>b)
+printf("a is greater than b");
+else;
+printf("b is grater");
+}
