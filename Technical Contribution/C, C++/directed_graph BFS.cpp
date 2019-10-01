@@ -66,7 +66,7 @@ bool Graph::isConnected()
              return false;
 
     Graph gr = getTranspose();
-    for(int i = 0; i < V; i++)
+    for(int i = 0; i < V; i=i+1)
         visited[i] = false;
 
     gr.DFSUtil(0, visited);
